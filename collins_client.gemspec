@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
     "lib/collins/util.rb",
     "lib/collins_client.rb"
   ]
-  s.homepage = "https://github.com/tumblr/collins/tree/master/support/ruby/collins-client"
+  s.homepage = "https://github.com/tumblr/collins-client"
   s.licenses = ["APL 2.0"]
   s.require_paths = ["lib"]
   s.summary = "Client library for Collins API"
