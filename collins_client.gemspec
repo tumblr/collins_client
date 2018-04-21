@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.authors = ["Blake Matheny", "Gabe Conradi", "Will Richard"]
   s.date = "2016-12-19"
   s.description = "Provides ruby support for interacting with the Collins API"
-  s.email = ["collins-sm@googlegroups.com","gabe@tumblr.com","will@tumblr.com"]
+  s.email = ["collins-sm@googlegroups.com"]
   s.extra_rdoc_files = [
     "README.md"
   ]
@@ -51,7 +51,7 @@ Gem::Specification.new do |s|
     "lib/collins/util.rb",
     "lib/collins_client.rb"
   ]
-  s.homepage = "https://github.com/tumblr/collins-client"
+  s.homepage = "https://github.com/tumblr/collins_client"
   s.licenses = ["APL 2.0"]
   s.require_paths = ["lib"]
   s.summary = "Client library for Collins API"
