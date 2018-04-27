@@ -1,6 +1,6 @@
 # Collins::Client
 
-The collins-service gem provides a library for API access to Collins.
+The collins_client gem provides a library for API access to Collins.
 
 ## Installation
 
