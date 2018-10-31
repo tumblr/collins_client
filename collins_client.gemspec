@@ -52,13 +52,13 @@ Gem::Specification.new do |s|
     "lib/collins_client.rb"
   ]
   s.homepage = "https://github.com/tumblr/collins_client"
-  s.licenses = ["APL 2.0"]
+  s.licenses = ["Apache-2.0"]
   s.require_paths = ["lib"]
   s.summary = "Client library for Collins API"
 
-  s.required_ruby_version = '>= 1.9.2'
+  s.required_ruby_version = '>= 2.0.0'
 
-  s.add_runtime_dependency 'httparty', '~> 0.11.0'
+  s.add_runtime_dependency 'httparty', '~> 0.16.0'
 
   s.add_development_dependency 'yard', '~> 0.9'
   s.add_development_dependency 'rspec', '~> 2.99'
