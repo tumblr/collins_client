@@ -1,6 +1,6 @@
 # Contributing
 
-We want to make contributing to collins_auth as easy and transparent as possible. If you run into problems, please open an issue. We also actively welcome pull requests.
+We want to make contributing to collins_client as easy and transparent as possible. If you run into problems, please open an issue. We also actively welcome pull requests.
 
 ## Pull Requests
 
@@ -16,4 +16,4 @@ In order to accept your pull request, we need you to submit a CLA. When you open
 
 ## License
 
-By contributing to collins_auth you agree that your contributions will be licensed under its Apache 2.0 license.
+By contributing to collins_client you agree that your contributions will be licensed under its Apache 2.0 license.
