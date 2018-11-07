@@ -1,6 +1,6 @@
 # Contributing
 
-We want to make contributing to collins_auth as easy and transparent as possible. If you run into problems, please open an issue. We also actively welcome pull requests.
+We want to make contributing to collins_client as easy and transparent as possible. If you run into problems, please open an issue. We also actively welcome pull requests.
 
 ## Pull Requests
 
@@ -12,10 +12,8 @@ We want to make contributing to collins_auth as easy and transparent as possible
 
 ## Contributor License Agreement ("CLA")
 
-In order to accept your pull request, we need you to submit a CLA.
-
-Complete your CLA [here](http://static.tumblr.com/zyubucd/GaTngbrpr/tumblr_corporate_contributor_license_agreement_v1__10-7-14.pdf) (a more integrated web form is coming soon).
+In order to accept your pull request, we need you to submit a CLA. When you open a pull request a bot will check if you have previously signed a CLA, and if not, add a link to the [Oath Open Source Contributor License Agreement](https://yahoocla.herokuapp.com).
 
 ## License
 
-By contributing to collins_auth you agree that your contributions will be licensed under its Apache 2.0 license.
+By contributing to collins_client you agree that your contributions will be licensed under its Apache 2.0 license.
