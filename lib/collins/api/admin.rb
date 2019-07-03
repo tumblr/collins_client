@@ -14,6 +14,14 @@ module Collins; module Api
 
     end
 
+    def reindex_asset! asset_or_tag
+      asset = get_asset_or_tag asset_or_tag
+      http_get("/api/admin/solr/asset/#{asset.tag}") do |response|
+        parse_response response, :expects => 200
+      end
+
+    end
+
   end
 end; end
 
