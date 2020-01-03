@@ -33,11 +33,21 @@ module Collins; module Api
       end
     end
 
-    def ipaddress_delete! asset_or_tag, pool = nil
+    def ipaddress_delete! asset_or_tag, options = {}
       asset = get_asset_or_tag asset_or_tag
-      logger.debug("Deleting addresses for asset #{asset.tag} in pool #{pool}")
+
+      # If options is passed in as a string assume it's a pool to preserve backwards compatibility
+      case options
+      when String
+        pool = options
+        logger.debug("Deprecated option used with ipaddress_delete!.  Setting pool to #{pool}.")
+        options = { :pool => pool }
+      end
+
+      logger.debug("Deleting addresses for asset #{asset.tag} in pool #{options[:pool]} with address #{options[:address]}")
       parameters = {
-        :pool => pool
+        :pool => options[:pool],
+        :address => options[:address],
       }
       parameters = select_non_empty_parameters parameters
       http_delete("/api/asset/#{asset.tag}/addresses", parameters, asset.location) do |response|
